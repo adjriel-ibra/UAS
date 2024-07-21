@@ -1,0 +1,190 @@
+body {
+  background-color: #242525;
+}
+.index {
+  background-color: #240750;
+  background-image: url(rental.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+  background-color: #06141b;
+}
+nav .nav-link {
+  color: #205295;
+}
+/* .bg {
+    margin-top: 100px;
+  } */
+.tulis {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #ffffff;
+}
+.tulis-merek {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.tulis-cap {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer {
+  margin-top: 180px;
+}
+.varian {
+  background-image: url(boot-aset/bgvarian.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* body {
+    filter: grayscale(50%);
+  } */
+.card {
+  background-color: #9aacb800;
+  /* background-color: #9aacb8; */
+  transition: 0.5s;
+  border: none;
+  color: #ffffff;
+  filter: grayscale(100%);
+}
+.card:hover {
+  background-color: #9aacb8;
+  box-shadow: 0 0 10px 0 #205295 inset, 0 0 20px 2px #205295;
+  transition: 0.5s;
+  filter: none;
+}
+.card-form {
+  background-color: #9aacb873;
+  transition: 0.5s;
+  filter: grayscale(100%);
+}
+.card-form:hover {
+  background-color: #9aacb8cc;
+  box-shadow: 0 0 10px 0 #205295 inset, 0 0 20px 2px #205295;
+  transition: 0.5s;
+  filter: none;
+}
+.btn:hover {
+  filter: none;
+  box-shadow: 0 0 10px 0 #9ba8ab inset, 0 0 20px 2px #9ba8ab;
+  border: 3px solid #205295;
+  transition: 0.5s;
+  background-color: #052659;
+  color: #c1e8ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  transition: 0.5s;
+  background-color: #c1e8ff;
+}
+.gmbr:hover {
+  width: 350px;
+  transition: 0.5s;
+}
+.gmbr {
+  transition: 0.5s;
+}
+.navbar-toggle-icon {
+  display: flex;
+  justify-content: end;
+}
+.home {
+  background-image: url(boot-aset/bg\ mobil\ 2.jpg);
+  background-repeat: no-repeat;
+}
+.pesan {
+  background-image: url(boot-aset/bg\ mobil\ 3.jpg);
+  background-size: cover;
+}
+.atur-carousel {
+  margin-top: 3rem;
+  width: 50%;
+}
+.tutup {
+  height: 6.5rem;
+  width: 100%;
+  background-color: #000000;
+}
+.form-txt {
+  color: #205295;
+}
+.bg-form {
+  background-image: url(boot-aset/bgform.jpg);
+  background-size: cover;
+  height: 700px;
+}
+.bg-varian {
+  background-color: #373838;
+  height: 50%;
+  /* height: 117rem; */
+  width: 100%;
+}
+.ig {
+  color: #ffffff;
+}
+.ig:hover {
+  color: #cd468b;
+}
+.fb {
+  color: #ffffff;
+}
+.fb:hover {
+  color: #3b5998;
+}
+.twitter {
+  color: #ffffff;
+}
+.twitter:hover {
+  color: #00acee;
+}
+.footer {
+  color: #ffffff;
+  background-color: #06141b;
+  height: 35.5rem;
+}
+.logo_wa {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 100px;
+}
+.up {
+  width: 2rem;
+  height: 2rem;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 3rem;
+  cursor: pointer;
+  color: #344c64;
+  mix-blend-mode: difference;
+}
+@media (max-width: 450px) {
+  .atur-carousel {
+    margin-top: 4rem;
+    width: 100%;
+  }
+  .tutup {
+    display: none;
+  }
+  .bg-form {
+    margin-left: 0;
+  }
+  .card-form {
+    display: flex;
+    justify-content: center;
+  }
+  .footer {
+    height: 43rem;
+  }
+}
